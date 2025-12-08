@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.topnav {
+  background-color: #7c9aad;
+  overflow: hidden;
+  width: 100%;         
+  position: fixed;     
+  top: 0;              
+  left: 0;              
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #7c9aad;
+  color: black;
+}
+
+.topnav a.active:hover {
+  background-color: #fff; 
+  color: black;
+}
+
+body {
+  margin: 0;            
+  padding-top: 50px;  
+  background-color: #c2dff1;
+}
+
+#about{
+    text-size-adjust: 10px;
+}
+
+#name{
+    text-align: left;
+}
+
+.topnav a.title {
+  float: left;
+  animation: animateTitle 5s infinite;
+}
+
+@keyframes animateTitle {
+  from{
+                color:green;
+                
+            }
+            to{
+                color:white;
+            }   
+        }
+
+.topnav a.title:hover {
+  background-color: #FBC3BC;
+  color: black;
+  cursor: default;
+}
+img {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #FBC3BC;
+  border-radius: 15px;
+  margin-top:25px;
+  margin-left:25px;
+  max-width:30%;
+}
+
+h1{
+    text-align: center;
+    color:#2f5e7c;
+    
+}
+.hearts {
+  animation: animateColor 10s infinite;
+}
+
+ @keyframes animateColor{
+            from{
+                color:#cd52b6;
+                
+            }
+            to{
+                color:white;
+            }   
+        }
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="website.html">My Websites</a>
+  <a href="#name" class="title">Maitha Almarzooqi</a>
+  <a href="cv.html">CV</a>
+</div>
+<h1><span class="hearts">♥</span> Welcome to my CV page! <span class="hearts">♥</span></h1>
+    
+    <iframe src="assets/CV.pdf" width=100% height="683px">
+    This browser does not support PDFs. Please <a href="assets/cv.pdf">download the PDF</a>.
+    </iframe>
+
+</body>
+</html>

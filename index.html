@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maitha</title>
+
+<style>
+
+ @keyframes animateColor{
+            from{
+                color:pink;
+                
+            }
+            to{
+                color:white;
+            }   
+        }
+.topnav {
+  background-color: #72461f;
+  overflow: hidden;
+  width: 100%;         
+  position: fixed;     
+  top: 0;              
+  left: 0;              
+}
+
+.topnav a {
+  float: right;
+  color: #1c0f0c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #1c0f0c;
+}
+
+.topnav a.active {
+  background-color: #72461f;
+  color: #1c0f0c;
+}
+
+.topnav a.active:hover {
+  background-color: #fff; 
+  color: #1c0f0c;
+}
+
+body {
+  margin: 0;            
+  padding-top: 50px;  
+}
+
+#about{
+    text-size-adjust: 10px;
+}
+
+#name{
+    text-align: left;
+}
+
+.topnav a.title {
+  float: left;
+  animation: animateColor 10s infinite;
+  font-size: 18px;
+}
+
+.topnav a.title:hover {
+  background-color: #ffffff;
+  color: #1c0f0c;
+
+}
+img {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #72461f;
+  border-radius: 15px;
+  margin-top:25px;
+  margin-left:25px;
+  max-width:30%;
+}
+
+.welcome {
+  font-size: 18px;
+  line-height: 1.6;
+  display: inline-block;    
+  max-width: calc(70% - 70px);           
+  margin-left: 30px;       
+  vertical-align:top; 
+}
+@media screen and (max-width: 640px) { 
+   img{max-width: 100%;}
+   .welcome{
+    max-width: 85%;
+   }
+}
+</style>
+</head>
+<body>
+    <body style="background-color: #c48c6c;"></body>
+         <img src="assets/Face.jpg">
+    <p class="welcome">Welcome to my website! 🌸
+This is a space where I share my work and give a glimpse into my personality and passions. From small projects to experiments I’ve tried, everything reflects a bit of who I am and how I approach creating. I hope as you browse, you get a sense of my style, my interests, and the ideas that inspire me. ♥ A little about me: I enjoy painting and creating websites, always exploring new ways to express my ideas. I’m a student at NYU Abu Dhabi, curious and excited to learn from every project I take on!</p>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="website.html">My Websites</a>
+  <a href="#name" class="title">Maitha Almarzooqi</a>
+  
+  <a href="cv.html">CV</a>
+
+</div>
+
+</body>
+</html>

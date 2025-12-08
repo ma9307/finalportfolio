@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.topnav {
+  background-color: #FBC3BC;
+  overflow: hidden;
+  width: 100%;         
+  position: fixed;     
+  top: 0;              
+  left: 0;              
+}
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FBC3BC;
+  color: black;
+}
+
+.topnav a.active:hover {
+  background-color: #fff; 
+  color: black;
+}
+
+body {
+  margin: 0;            
+  padding-top: 50px;  
+  background-color: #FFE3E0;
+}
+
+#about{
+    text-size-adjust: 10px;
+}
+
+#name{
+    text-align: left;
+}
+
+.topnav a.title {
+  float: left;
+  animation: animateTitle 2s infinite;
+}
+
+@keyframes animateTitle {
+  from{
+    color:red;
+  }
+  to{
+    color:white;
+  }   
+}
+
+.topnav a.title:hover {
+  background-color: #FBC3BC;
+  color: black;
+  cursor: default;
+}
+
+img {
+  border-width: 5px;
+  border-style: solid;
+  border-color: #FBC3BC;
+  border-radius: 15px;
+  margin-top:25px;
+  margin-left:25px;
+  max-width:30%;
+}
+
+h1{
+    text-align: center;
+    color:#efa198;
+}
+
+.hearts {
+  animation: animateColor 10s infinite;
+}
+
+@keyframes animateColor{
+  from{
+      color:#c839ae;
+  }
+  to{
+      color:white;
+  }   
+}
+
+
+.project-container {
+    width: 80%;
+    margin: 0 auto;
+    font-size:18px;
+    line-height: 1.5;
+    margin-top:40px;
+}
+
+.project-box {
+    margin-bottom: 40px;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    border:3px solid #FBC3BC;
+}
+
+.project-box h2 {
+    margin-top:0;
+}
+
+.project-link {
+    color:purple;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+    color:red;
+}
+.project-title1{
+font-family: "Comic Sans MS", cursive;
+  color: rgb(241, 104, 54);
+}
+.project-title2{
+  color:#60af72;
+}
+.project-title3{
+  font-family: "Papyrus", fantasy;
+  color:rgb(107, 107, 250);
+}
+.project-title4{
+  color:#476b1c;
+font-family: "Curlz MT", cursive;
+}
+
+    </style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="website.html">My Websites</a>
+  <a href="#name" class="title">Maitha Almarzooqi</a>
+  <a href="cv.html">CV</a>
+</div>
+
+<h1><span class="hearts">♥</span> My websites! <span class="hearts">♥</span></h1>
+
+<div class="project-container">
+
+    <div class="project-box">
+    <h2 class="project-title1"> My First Website – A Typical Journey to D2 🍝🍜👩🏻‍🍳🥘🤌🏻</h2>
+        <p>
+            The first project I have ever created is a short film titled A Typical Journey to D2 which captures NYUAD students'
+            daily struggles on their way to the D2 dining hall. The theme emphasizes community and shared
+            student experiences, making viewers feel part of campus life.
+        </p>
+        <a href="https://ma9307.github.io/Project1/" class="project-link">Click here to interact!</a>
+    </div>
+
+    <div class="project-box">
+    <h2 class="project-title2"> Jack and the Cats 🧍🐈</h2>
+        <p>
+            My second project is an interactive comic that tells a fun, lighthearted story about two campus cats who get into a
+            playful argument over food. As tension rises, Professor Jack steps in to bring peace with treats.
+        </p>
+        <a href="https://mam10533-sketch.github.io/Comics-Project2/" class="project-link">Click here to interact!</a>
+    </div>
+
+    <div class="project-box">
+    <h2 class="project-title3">The Locked Phone Mystery 🕵️‍♂️📱❓</h2>
+        <p>
+            An immersive audio-only interactive story following Sarah as she tries to unlock her phone after
+            her friends change the password as a prank. The story uses ambient sound and dialogue to build
+            atmosphere and guide the narrative purely through audio.
+        </p>
+        <a href="https://sohaila-abdulsattar-mohammed.github.io/The-Locked-Phone-Mystery/" class="project-link" >Click here to interact!</a>
+    </div>
+
+    <div class="project-box">
+    <h2 class="project-title4"> The Hidden Facets of Self 🎭👀</h2>
+        <p>
+            A video project presented through five hidden-door videos that explore private thoughts and the
+            sides of ourselves we show when no one is watching. Each video offers a different moment of
+            introspection, creating a cohesive theme about isolation and self-reflection.
+        </p>
+        <a href="https://ah-alavi.github.io/Video_Project/" class="project-link" >Click here to interact!</a>
+    </div>
+
+</div>
+
+</body>
+</html>
